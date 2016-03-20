@@ -865,6 +865,29 @@ pre .javascript .function {
 .back-to-top.back-to-top-on {
   bottom: 40px;
 }
+.change-the-lang {
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 64px;
+  right: 50px;
+  z-index: 1050;
+  padding: 0 6px;
+  width: 25px;
+  background: #222;
+  font-size: 12px;
+  opacity: 0.6;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  -webkit-transform: translateZ(0);
+  transition-property: bottom;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+}
+.change-the-lang a {
+  color: #fff;
+}
 .header {
   background: #fff;
 }
@@ -1513,7 +1536,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #82fff9;
+  background: #75b5f0;
 }
 .links-of-blogroll {
   font-size: 13px;

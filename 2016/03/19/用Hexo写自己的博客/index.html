@@ -61,7 +61,9 @@
 [引用作者[引用的章节]] [http://www.baidu.com] [引用标题]
 下面我们开始使用Mak来写一篇文章
 使用方式插入代码[设置目录] []1alert(&apos;hello woeld!&apos;);
-在文章中插入一张图片插入链接百度">
+在文章中插入一张图片插入链接百度
+
+dcdscsdsfzs">
 <meta property="og:type" content="article">
 <meta property="og:title" content="用Hexo写自己的博客">
 <meta property="og:url" content="http://yoursite.com/2016/03/19/用Hexo写自己的博客/index.html">
@@ -70,16 +72,20 @@
 [引用作者[引用的章节]] [http://www.baidu.com] [引用标题]
 下面我们开始使用Mak来写一篇文章
 使用方式插入代码[设置目录] []1alert(&apos;hello woeld!&apos;);
-在文章中插入一张图片插入链接百度">
+在文章中插入一张图片插入链接百度
+
+dcdscsdsfzs">
 <meta property="og:image" content="http://yoursite.com/uploads/image/2016031901.jpg">
-<meta property="og:updated_time" content="2016-03-19T15:07:06.131Z">
+<meta property="og:updated_time" content="2016-03-20T07:25:35.780Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="用Hexo写自己的博客">
 <meta name="twitter:description" content="这是一段引用内容  
 [引用作者[引用的章节]] [http://www.baidu.com] [引用标题]
 下面我们开始使用Mak来写一篇文章
 使用方式插入代码[设置目录] []1alert(&apos;hello woeld!&apos;);
-在文章中插入一张图片插入链接百度">
+在文章中插入一张图片插入链接百度
+
+dcdscsdsfzs">
 <meta name="twitter:image" content="http://yoursite.com/uploads/image/2016031901.jpg">
 
 
@@ -101,7 +107,7 @@
   <title> 用Hexo写自己的博客 | SRAITA </title>
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans,zh-tw,en,default">
 
   
 
@@ -318,6 +324,9 @@
 <p>下面我们开始使用Mak来写一篇文章</p>
 <h2 id="使用方式"><a href="#使用方式" class="headerlink" title="使用方式"></a>使用方式</h2><h3 id="插入代码"><a href="#插入代码" class="headerlink" title="插入代码"></a>插入代码</h3><figure class="highlight js"><figcaption><span>[设置目录] []</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alert(<span class="string">'hello woeld!'</span>);</span><br></pre></td></tr></table></figure>
 <p>在文章中插入一张图片<br><img src="/uploads/image/2016031901.jpg" alt="这是一张图片"><br>插入链接<br><a href="http://www.baidu.com" target="_blank" rel="external">百度</a></p>
+<blockquote>
+<p>dcds<br>csdsfzs</p>
+</blockquote>
 
       
     </div>
@@ -438,7 +447,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">4</span>
+              <span class="site-state-item-count">3</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
@@ -555,10 +564,24 @@
     NexT.Pisces
   </a>
 </div>
+<div class="change-the-lang">
+  <a id="translateLink" href="javascript:translatePage();">繁</a>
+</div>
+<script type="text/javascript" src="http://www.arao.me/js/tw_cn.js"></script>
+<script type="text/javascript">
+var defaultEncoding = 2; //网站编写字体是否繁体，1-繁体，2-简体
+var translateDelay = 0; //延迟时间,若不在前, 要设定延迟翻译时间, 如100表示100ms,默认为0
+var cookieDomain = "http://www.arao.me/"; //Cookie地址, 一定要设定, 通常为你的网址
+var msgToTraditionalChinese = "繁"; //此处可以更改为你想要显示的文字
+var msgToSimplifiedChinese = "简"; //同上，但两处均不建议更改
+var translateButtonId = "translateLink"; //默认互换id
+translateInitilization();
+</script>
 
 
 
       </div>
+      
     </footer>
 
     <div class="back-to-top">
@@ -836,8 +859,7 @@
   </script>
 
   
-    <script type="text/javascript" src="http://cdn.staticfile.org/mathjax/2.4.0/MathJax.js"></script>
-    <script type="text/javascript" src="http://cdn.staticfile.org/mathjax/2.4.0/config/TeX-AMS-MML_HTMLorMML.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
   
 
 
