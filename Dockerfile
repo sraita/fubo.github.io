@@ -15,15 +15,15 @@ RUN echo '2016052013' > /dev/null \
 WORKDIR /usr/src/app
 RUN npm install
 
-COPY config.json /usr/src/app/
-RUN git clone -b master https://github.com/sraita/sraita.github.io.git .deploy_git
+# COPY config.json /usr/src/app/
+# RUN git clone -b master https://github.com/sraita/sraita.github.io.git .deploy_git
 
-ADD .gitconfig /root/.gitconfig
+# ADD .gitconfig /root/.gitconfig
 
-ENV NODE_ENV production
-EXPOSE 3000
+# ENV NODE_ENV production
+# EXPOSE 3000
 
-CMD ["node", "server"]
+# CMD ["node", "server"]
 
 
 # 部署到github
